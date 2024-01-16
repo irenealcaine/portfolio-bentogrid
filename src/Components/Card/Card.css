@@ -1,0 +1,36 @@
+.card{
+
+  padding:20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #0004;
+  opcaity:1;
+  transition: opacity 0.2s ease;
+
+  &.blue{
+    background-color: #2cd;
+  }
+
+  &.lime{
+    background-color:limegreen;
+  }
+
+  &.pink{
+    background-color: pink;
+  }
+
+  &.purple{
+    background-color: purple;
+  }
+
+  &.red{
+    background-color: red;
+  }
+
+  &.green{
+    background-color: green;
+  }
+
+  &.inactive{
+    opacity: 0.4;
+  }
+}
